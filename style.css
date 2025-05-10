@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    -webkit-user-drag: none;
+}
+body{
+    padding: 0px 20px 20px 20px;
+    background-color: black;
+    color: white;
+    font-family: "Open Sans",sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub-head{
+    font-size: 18px;
+    color: rgb(223, 223, 223);
+}
+.logo{
+    width: 90px;
+    height: auto;
+}
+.nav-bts-con{
+    display: flex;
+}
+.lang-btn{
+    width: 110px;
+    font-size: 12px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(128, 128, 128, 0.829);
+    border-radius: 2px;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.lang-globe{
+    width: 15px;
+}
+.lang-down{
+    width: 16px;
+}
+.sign-btn{
+    padding: 5px 18px;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    border-radius: 2px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.hero-text{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.hero-btn{
+    padding: 8px 25px;
+    color: white;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    background-color: red;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.hero-img{
+    width: 610px;
+}
+.st-con{
+    margin: 0px -20px;
+    padding: 30px 20px;
+    height: 520px;
+    display: flex;
+    position: relative;
+    background-image: url('img/mindflyer.png');
+    background-size: cover;
+    background-position: center;
+}
+.st-elaven{
+    position: absolute;
+    width: 520px;
+    bottom: 0;
+    right: 40px;
+}
+.st-genre{
+    font-weight: 500;
+    font-size: 24px;
+}
+.st-txt{
+    font-size: 42px;
+    font-weight: bold;
+    margin: 18px 0px;
+}
+.st-info{
+    font-size: 18px;
+    font-weight: 600;
+}
+.st-info span{
+    color: gray;
+    font-size: 16px;
+    margin-right: 30px;
+    font-weight: 500;
+}
+.st-disc{
+    font-size: 14px;
+    color: rgb(182, 182, 182);
+    margin: 30px 0px;
+}
+.st-watch{
+    background-color: red;
+    width: 170px;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.st-play-img{
+    width: 16px;
+}
+.st-season{
+    padding: 10px 40px;
+    font-weight: 500;
+    border: 1px solid rgb(110, 110, 110);
+    color: white;
+    background-color: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.st-btns{
+    display: flex;
+}
+.st-popular{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px 0px;
+}
+.series-img{
+    width: 350px;
+}
