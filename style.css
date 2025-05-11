@@ -94,6 +94,7 @@ nav{
     background-image: url('img/mindflyer.png');
     background-size: cover;
     background-position: center;
+
 }
 .st-elaven{
     position: absolute;
@@ -127,8 +128,10 @@ nav{
 }
 .st-watch{
     background-color: red;
-    width: 170px;
+    width: 160px;
+    font-family: inherit;
     font-size: 12px;
+    font-weight: 500;
     padding: 10px;
     border: none;
     color: white;
@@ -161,4 +164,30 @@ nav{
 }
 .series-img{
     width: 350px;
+}
+.ft-sec{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.ft-img-div{
+    background-color: red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 100px;
+}
+.ft-img{
+    width: 28px;
+}
+.ft-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.ft-sub{
+    font-size: 12px;
+    color: rgb(182, 182, 182);
 }
