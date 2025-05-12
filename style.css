@@ -6,6 +6,7 @@
 }
 img{
     -webkit-user-drag: none;
+    user-select: none;
 }
 body{
     padding: 0px 20px 20px 20px;
