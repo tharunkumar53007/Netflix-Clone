@@ -9,7 +9,7 @@ img{
     user-select: none;
 }
 body{
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px 0px 20px;
     background-color: black;
     color: white;
     font-family: "Open Sans",sans-serif;
@@ -294,7 +294,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  margin-bottom: 150px;
 }
 .unli-sec::before{
   content: "";
@@ -305,6 +305,7 @@ nav{
   height: 100%;
   background-image: url('img/overview.png');
   background-position: center;
+  background-repeat: no-repeat;
   opacity: 0.45;  
   z-index: -1;  
 }
@@ -328,4 +329,33 @@ nav{
     font-weight: 600;
     cursor: pointer;
     border-radius: 2px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #111;
+    color: #d7d7d7;
+    margin: 0px -20px;
+    padding: 50px 50px 30px 50px;
+}
+.foot-divs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.foot-divs p{
+    font-size: 14px;
+}
+
+.foot-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.foot-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: inherit;
 }
